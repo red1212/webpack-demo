@@ -1,0 +1,8 @@
+## 2021 年1月3日
+1/ webpack 只能识别js 和 json 格式的文件，如果打包其他格式的需要配置对应的loader
+2/ loader类似于翻译 将webpack不识别的文件翻译为js 文件
+3/ loader 和 plugins的区别：
+loader 类似与翻译，需要下载以及配置
+plugins 用于扩赞功能，需要下载对应的plugin使用的时候需要引入
+
+4/html-webpack-plugin 打包html资源，会创建一个html文件，并且自动引入打包后的资源（JS CSS），也可以使用template模版
